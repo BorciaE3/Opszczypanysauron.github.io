@@ -12,14 +12,14 @@
     </header>
 
     <nav>
-        <!-- Dodaj linki do poszczególnych sekcji strony -->
+        
         <ul>
             <li><a href="#wprowadzenie">Wprowadzenie</a></li>
             <li><a href="#kategorie">Kategorie Przedmiotów</a></li>
             <li><a href="#lista">Lista Przedmiotów</a></li>
             <li><a href="#porady">Porady i Triki</a></li>
             <li><a href="#mod">Moduły i Modyfikacje</a></li>
-            <li><a href="#" id="homeLink">Home</a></li>
+            <li><a href="Stronagłówna.html">Home</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
         </ul>
     </nav>
@@ -37,66 +37,79 @@
 
         <section id="lista">
             <style>
-                /* Styl dla elementów listy */
                 ol {
-                    padding-left: 20px; /* Dodaje odstęp z lewej strony */
+                    padding-left: 20px; 
                 }
             
                 ol li {
-                    margin-bottom: 5px; /* Dodaje odstęp między elementami */
+                    margin-bottom: 5px; 
                 }
             </style>
-
-            <h2>Lista Przedmiotów</h2>
-            <ul>
-                <li>Bloki</li>
-                <ol>
-                    <li><a href="https://dbminecraft.pl/przedmiot/kamien">Kamień</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/debowe-drewno">Drewno</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/ziemia">Ziemia</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/piasek">Piasek</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/szklo">Szkło</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/cegly">Cegły</a></li>
-                </ol>
-            </ul>
-            <ul>
-                <li>Narzędzia</li>
-                <ol>
-                    <li><a href="https://dbminecraft.pl/przedmiot/diamentowy-kilof">Kilof</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-lopata">Łopata</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-siekiera">Siekiera</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-motyka">Motyka</a></li>
-                </ol>
-            </ul>
-            <ul>
-                <li>Broń</li>
-                <ol>
-                    <li><a href="https://dbminecraft.pl/przedmiot/diamentowy-miecz"></a>Miecz</li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/luk">Łuk</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/kusza">Kusza</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/strzala">Strzała</a></li>
-                </ol>
-            </ul>
-            <ul>
-                <li>Pożywienie</li>
-                <ol>
-                    <li><a href="https://dbminecraft.pl/przedmiot/jablko">Jabłko</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/chleb">Chleb</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/pieczona-wolowina">Mięso</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/pieczony-losos">Ryba</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/marchewka">Marchewka</a></li>
-                </ol>
-            </ul>
-            <ul>
-                <li>Potwory</li>
-                <ol>
-                    <li><a href="https://dbminecraft.pl/przedmiot/skora">Skóra</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/proch">Proch</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/kosc">Kość</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/zgnile-mieso">Zgniłe Mięso</a></li>
-                    <li><a href="https://dbminecraft.pl/przedmiot/enderperla">Ender Perły</a></li>
-                </ol>
-            </ul>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                <h2>Lista Przedmiotów</h2>
+                <ul>
+                    <li>Bloki</li>
+                    <ol>
+                        <li><a href="https://dbminecraft.pl/przedmiot/kamien">Kamień</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/debowe-drewno">Drewno</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/ziemia">Ziemia</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/piasek">Piasek</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/szklo">Szkło</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/cegly">Cegły</a></li>
+                    </ol>
+                </ul>
+            </div>
+            <div style="flex: 1;">
+                <h3 style="height: 39px;">Lista Przedmiotów</h3>
+                <ul>
+                    <li>Narzędzia</li>
+                    <ol>
+                        <li><a href="https://dbminecraft.pl/przedmiot/diamentowy-kilof">Kilof</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-lopata">Łopata</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-siekiera">Siekiera</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/diamentowa-motyka">Motyka</a></li>
+                    </ol>
+                </ul>
+            </div>
+            <div style="flex: 1;">
+                <h3 style="height: 39px;">Lista Przedmiotów</h3>
+                <ul>
+                    <li>Broń</li>
+                    <ol>
+                        <li><a href="https://dbminecraft.pl/przedmiot/diamentowy-miecz"></a>Miecz</li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/luk">Łuk</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/kusza">Kusza</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/strzala">Strzała</a></li>
+                    </ol>
+                </ul>
+            </div>
+            <div style="flex: 1;">
+                <h3 style="height: 39px;">Lista Przedmiotów</h3>
+                <ul>
+                    <li>Pożywienie</li>
+                    <ol>
+                        <li><a href="https://dbminecraft.pl/przedmiot/jablko">Jabłko</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/chleb">Chleb</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/pieczona-wolowina">Mięso</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/pieczony-losos">Ryba</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/marchewka">Marchewka</a></li>
+                    </ol>
+                </ul>
+            </div>
+            <div style="flex: 1;">
+                <h3 style="height: 39px;">Lista Przedmiotów</h3>
+                <ul>
+                    <li>Potwory</li>
+                    <ol>
+                        <li><a href="https://dbminecraft.pl/przedmiot/skora">Skóra</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/proch">Proch</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/kosc">Kość</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/zgnile-mieso">Zgniłe Mięso</a></li>
+                        <li><a href="https://dbminecraft.pl/przedmiot/enderperla">Ender Perły</a></li>
+                    </ol>
+                </ul>
+            </div>
            
         </section>
 
@@ -120,17 +133,5 @@
         <!-- Stopka strony -->
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-           
-            var homeLink = document.getElementById("homeLink");
-     
-            
-            homeLink.addEventListener("click", function (event) {
-               
-           window.location.href = "Stronagłówna.html";
-            });
-        });
-     </script>
 </body>
 </html>
