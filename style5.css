@@ -84,3 +84,18 @@ section h4 {
 .zmien-kolor.active {
   color: aqua;
 }
+
+img[src="Obrazki/shaders.png"] {
+   width: 300px;
+   height: 200px;
+}
+
+img[src="Obrazki/sildurs.png"] {
+    width: 300px;
+    height: 200px;
+}
+
+img[src="Obrazki/shaders2.png"] {
+    width: 300px;
+    height: 200px;
+}
