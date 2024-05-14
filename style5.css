@@ -85,17 +85,7 @@ section h4 {
   color: aqua;
 }
 
-img[src="Obrazki/shaders.png"] {
-   width: 300px;
-   height: 200px;
-}
-
-img[src="Obrazki/sildurs.png"] {
-    width: 300px;
-    height: 200px;
-}
-
-img[src="Obrazki/shaders2.png"] {
+div[style*="flex: 1;"] > img {
     width: 300px;
     height: 200px;
 }
